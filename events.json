@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "startTime": 0,
+      "endTime": 150
+    },
+    {
+      "startTime": 180,
+      "endTime": 300
+    },
+    {
+      "startTime": 180,
+      "endTime": 370
+    },
+    {
+      "startTime": 420,
+      "endTime": 500
+    }
+  ]
+}
