@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Task Page Task Page has proper layout 1`] = `
+<main class="container flex flex-col items-center mb-10">
+  <h1>Jiminny Calendar</h1>
+  <section class="my-">
+    <div class="relative mx-3">
+      <ul>
+        <li>
+          <event-box-stub event="[object Object]"></event-box-stub>
+        </li>
+        <li>
+          <event-box-stub event="[object Object]"></event-box-stub>
+        </li>
+      </ul>
+    </div>
+    <ul>
+      <li>
+        <row-stub title="7 AM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="8 AM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="9 AM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="10 AM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="11 AM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="12 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="1 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="2 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="3 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="4 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="5 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="6 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="7 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="8 PM"></row-stub>
+      </li>
+      <li>
+        <row-stub title="9 PM" islast="true"></row-stub>
+      </li>
+    </ul>
+  </section>
+</main>
+`;

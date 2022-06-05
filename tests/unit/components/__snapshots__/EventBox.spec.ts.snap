@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component EventBox EventBox EventBox has proper layout 1`] = `
+<div class="event-box absolute z-10 bg-white border-l-4 border-pink-500" style="top: 0px; left: 0px; width: 333px; height: 240px;">
+  <h3 class="title">
+    Event title
+  </h3>
+</div>
+`;

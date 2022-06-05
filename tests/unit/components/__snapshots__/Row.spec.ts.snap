@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component Row Row Row has proper layout 1`] = `
+<div class="time-row relative w-100">
+  <div class="absolute -left-20 -top-33">
+    <div class="w-16 text-right"><span class="text-lg text-slate-500"> test </span></div>
+  </div>
+  <div class="time-body bg-gray-100 h-15.5 border-l-2 border-l-slate-200 box-border"></div>
+</div>
+`;

@@ -1,17 +1,24 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import { events } from './events/index';
 
-Vue.use(Vuex)
+export interface RootState {
+	version: string;
+}
 
-export default new Vuex.Store({
+Vue.use(Vuex);
+
+export default new Vuex.Store<RootState>({
   state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
+    version: '1.0.1',
   },
   modules: {
-  }
-})
+    events,
+  },
+  mutations: {
+
+  },
+  actions: {
+
+  },
+});
