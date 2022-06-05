@@ -24,6 +24,11 @@ yarn install
 yarn serve
 ```
 
+### Start the event service
+```
+yarn start
+```
+
 ### Compiles and minifies for production
 ```
 yarn build
