@@ -80,4 +80,16 @@ export default class EventTransform {
 
         return this.eventsBox;
     }
+    
+}
+
+export type EventTransformServiceType = InstanceType<typeof EventTransform>;
+
+let EventTransformInstance: EventTransformServiceType;
+
+export function getEventTransformInstance(width: number, padding: number, events: EventsBox[], ): EventTransformServiceType {
+  if (!EventTransformInstance) {
+    EventTransformInstance = new EventTransform(width, padding, events);
+  }
+  return EventTransformInstance;
 }

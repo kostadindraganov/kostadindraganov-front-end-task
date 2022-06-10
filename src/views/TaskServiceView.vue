@@ -43,7 +43,9 @@ import timeFrame from '@/constants/timeFrame';
 
 import { Event } from '@/types/Event';
 
-import EventTransform from '@/services/EventTransform';
+import {getEventTransformInstance, EventTransformServiceType} from '@/services/EventTransform';
+// import EventTransform from '@/services/EventTransform';
+
 import { EventsBox } from '@/types/EventsBox';
 
 
@@ -82,9 +84,11 @@ export default class TaskServiceView extends Vue {
 
   async created() {
     await this.fetchEvents();
-
-    const EventTransformService = new EventTransform(720, 24, this.getEvents);
-    this.eventsBox = EventTransformService.getAllTransformedEvents();
+    const eventManager: EventTransformServiceType = getEventTransformInstance(720, 24, this.getEvents)
+    this.eventsBox = eventManager.getAllTransformedEvents()
+    
+    // const EventTransformService = new EventTransform(720, 24, this.getEvents);
+    // this.eventsBox = EventTransformService.getAllTransformedEvents();
   }
 }
 </script>
